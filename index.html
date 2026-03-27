@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOUSSOUF CHAIMA - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #5a3e36;
+      --secondary: #f5f1ee;
+      --accent: #c8a97e;
+      --text: #2e2e2e;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--secondary);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      color: var(--primary);
+    }
+
+    header h2 {
+      font-weight: 400;
+      color: var(--accent);
+      margin-top: 10px;
+    }
+
+    .contact {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      margin-bottom: 15px;
+    }
+
+    .card h4 {
+      color: var(--primary);
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .sidebar .card {
+      background: #fffaf7;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>BOUSSOUF CHAIMA</h1>
+    <h2>Responsable RH - Développement & Formation</h2>
+    <div class="contact">
+      📞 0553 87 02 91 | ✉️ chaimachaimabsf1999@gmail.com
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <div>
+      <section>
+        <h3>Profil</h3>
+        <div class="card">
+          Responsable RH spécialisée en développement des talents et transformation digitale.
+          Expertise en stratégie RH, formation et amélioration de la performance organisationnelle.
+        </div>
+      </section>
+
+      <section>
+        <h3>Expériences</h3>
+
+        <div class="card">
+          <h4>Responsable Développement RH</h4>
+          <p>ZOUAOUI SMAIL T-C (2024 - Présent)</p>
+          <ul>
+            <li>Stratégie RH et gestion des talents</li>
+            <li>Pilotage du recrutement</li>
+            <li>Gestion des performances</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Gestionnaire RH</h4>
+          <p>SEKCERAM (2024)</p>
+          <ul>
+            <li>Gestion administrative du personnel</li>
+            <li>Suivi des recrutements</li>
+            <li>Tableaux de bord RH</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4>Stage RH</h4>
+          <p>ZOUAOUI SMAIL (2020-2023)</p>
+          <ul>
+            <li>Initiation aux pratiques RH</li>
+            <li>Participation aux processus administratifs</li>
+          </ul>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="sidebar">
+
+      <section>
+        <h3>Compétences</h3>
+        <div class="card">
+          <ul>
+            <li>Recrutement & intégration</li>
+            <li>Gestion des performances</li>
+            <li>Climat social</li>
+            <li>ERP: WINALCO, LOGIPAIE</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Langues</h3>
+        <div class="card">
+          Arabe • Français • Anglais
+        </div>
+      </section>
+
+      <section>
+        <h3>Loisirs</h3>
+        <div class="card">
+          Dessin • Natation • Voyages
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
